@@ -1,0 +1,21 @@
+{
+  "name": "@lancepick-org/actual-budget-sync-server",
+  "version": "1.0.0",
+  "description": "RESTAPI for actual-budget-sync-client",
+  "exports": "./index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "index.js",
+    "serve": "node ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lancepick-org/actual-app-api": "^4.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "sqlite3": "^5.0.9"
+  }
+}

@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Ignored Project Files
+server/data
+server/db
+server/public

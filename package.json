@@ -1,0 +1,31 @@
+{
+  "name": "@lancepick-org/actual-budget-sync",
+  "version": "1.0.0",
+  "description": "Syncs bank transactions with Actual Budget",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd client && npm run build",
+    "serve": "open-cli http://localhost:8080 && cd server && npm run serve" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lancepick/actual-budget-sync.git"
+  },
+  "keywords": [
+    "budget"
+  ],
+  "author": "lancepick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lancepick/actual-budget-sync/issues"
+  },
+  "homepage": "https://github.com/lancepick/actual-budget-sync#readme",
+  "dependencies": {
+    "@lancepick-org/actual-app-api": "^4.0.3",
+    "sqlite3": "^5.0.9"
+  },
+  "devDependencies": {
+    "open-cli": "^7.0.1"
+  }
+}
